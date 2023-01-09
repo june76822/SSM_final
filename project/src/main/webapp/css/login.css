@@ -1,0 +1,46 @@
+.log_main {
+	display: flex;
+	margin-top: 1%;
+    height: 500px;
+    background-color: #e3e3e3;
+	margin-top: 1%;
+	height: 500px;
+    justify-content: space-evenly;
+	align-items: center;
+	color : black;
+}
+
+.section-set > form *{
+	color: black;
+	width: 99%;
+}
+
+.log_font#join_log{
+	padding: 30px;
+}
+
+.log_font_fir{
+	font-size: 28px;
+}
+.log_font{
+	font-size: 18px;
+	color:black;
+}
+
+#essential{
+	color: red;
+}
+
+.buttons{
+	padding-top: 10px;
+}
+
+.detail{
+	color:#666161;
+	font-size:20px;
+}
+
+#bnt_logjoin{
+	width:250px;
+	height: 40px;
+}

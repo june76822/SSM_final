@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>project</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+
+
+	<servlet>
+		<servlet-name>board_page</servlet-name>
+		<jsp-file>/board/board.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>board_page</servlet-name>
+		<url-pattern>/board_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>boardview_page</servlet-name>
+		<jsp-file>/board/boardview.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>boardview_page</servlet-name>
+		<url-pattern>/boardview_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>boardWrite_page</servlet-name>
+		<jsp-file>/board/boardWrite.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>boardWrite_page</servlet-name>
+		<url-pattern>/boardWrite_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>boardUpdate_page</servlet-name>
+		<jsp-file>/board/boardUpdate.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>boardUpdate_page</servlet-name>
+		<url-pattern>/boardUpdate_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>reviewBoard_page</servlet-name>
+		<jsp-file>/board/reviewBoard.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reviewBoard_page</servlet-name>
+		<url-pattern>/reviewBoard_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>sales_page</servlet-name>
+		<jsp-file>/titleMenu/sales.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sales_page</servlet-name>
+		<url-pattern>/sales_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>login_page</servlet-name>
+		<jsp-file>/userLog/login.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login_page</servlet-name>
+		<url-pattern>/login_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>join_page</servlet-name>
+		<jsp-file>/userLog/join.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>join_page</servlet-name>
+		<url-pattern>/join_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addressBook_page</servlet-name>
+		<jsp-file>/user/addressBook.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addressBook_page</servlet-name>
+		<url-pattern>/addressBook_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>cart_page</servlet-name>
+		<jsp-file>/item/cart.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>cart_page</servlet-name>
+		<url-pattern>/cart_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>myPage_page</servlet-name>
+		<jsp-file>/user/myPage.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>myPage_page</servlet-name>
+		<url-pattern>/myPage_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>orderHistory_page</servlet-name>
+		<jsp-file>/user/orderHistory.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>orderHistory_page</servlet-name>
+		<url-pattern>/orderHistory_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>profile_page</servlet-name>
+		<jsp-file>/user/profile.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>profile_page</servlet-name>
+		<url-pattern>/profile_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>deleteMember_page</servlet-name>
+		<jsp-file>/user/deleteMember.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteMember_page</servlet-name>
+		<url-pattern>/deleteMember_page</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>passwordCheck_page</servlet-name>
+		<jsp-file>/user/passwordCheck.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>passwordCheck_page</servlet-name>
+		<url-pattern>/passwordCheck_page</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>findPassword_page</servlet-name>
+		<jsp-file>/user/findPassword.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>findPassword_page</servlet-name>
+		<url-pattern>/findPassword_page</url-pattern>
+	</servlet-mapping>
+	
+    <servlet>
+		<servlet-name>phoneCheck_page</servlet-name>
+		<jsp-file>/user/phoneCheck.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>phoneCheck_page</servlet-name>
+		<url-pattern>/phoneCheck_page</url-pattern>
+	</servlet-mapping>
+	
+	
+
+	<servlet>
+		<servlet-name>wishList_page</servlet-name>
+		<jsp-file>/user/wishList.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>wishList_page</servlet-name>
+		<url-pattern>/wishList_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>payment_page</servlet-name>
+		<jsp-file>/payment/payment.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>payment_page</servlet-name>
+		<url-pattern>/payment_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>paymentResult_page</servlet-name>
+		<jsp-file>/payment/paymentResult.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>paymentResult_page</servlet-name>
+		<url-pattern>/paymentResult_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>detail_page</servlet-name>
+		<jsp-file>/item/detail.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>detail_page</servlet-name>
+		<url-pattern>/detail_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>itemList_page</servlet-name>
+		<jsp-file>/item/itemList.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>itemList_page</servlet-name>
+		<url-pattern>/itemList_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>searchResult_page</servlet-name>
+		<jsp-file>/item/searchResult.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>searchResult_page</servlet-name>
+		<url-pattern>/searchResult_page</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>header</servlet-name>
+		<jsp-file>/header/header.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>header</servlet-name>
+		<url-pattern>/header</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>orderResult_page</servlet-name>
+		<jsp-file>/item/orderResult.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>orderResult_page</servlet-name>
+		<url-pattern>/orderResult_page</url-pattern>
+	</servlet-mapping>
+
+</web-app>

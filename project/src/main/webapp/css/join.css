@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+#join_box{
+  width: fit-content;
+  margin: auto;
+  margin-top: 3%;
+  background-color:#e3e3e3;
+}
+#join_box > h1{
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 38%;
+}
+#address_1{
+	width: 40%
+	
+}
+.form_submit{
+    width:600px;
+    text-align: center;
+}
+.form_submit > input{
+    width: 200px;
+    height: 80px;
+    font-size: larger;
+}
+.join_form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.join_form .input{
+    margin: 4%;
+
+}
+.join_form .init_2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.join_form input[type="text" i] {
+    padding: 1px 2px;
+    width: 460px;
+    height: 51px;
+    border-color: rgba(0, 0, 0, 0.096);
+}
+.join_form input[type="password" i]{
+    padding: 1px 2px;
+    width: 460px;
+    height: 51px;
+    border-color: rgba(0, 0, 0, 0.096);
+}
+.join_form select{
+    padding: 1px 2px;
+    width: 460px;
+    height: 57px;
+}
+.form_submit input[type="button" i] {
+    width: 497px;
+    height: 34px;
+    margin: 4%;
+}
+
+.join_form input[type="button" i] {
+    width: 100px;
+    height: 34px;
+    margin: 4%;
+}
+
+
+#contact_1{
+    width: 25%;
+    height: 56px;
+    border: none;
+}
+#contact_2,#contact_3{
+    width: 33%;
+    height: 56px;
+    border: none;
+}
+#gender{
+	border: none;
+}
+/* #contact_3{ */
+    /* width: 33%; */
+/* } */
+#e_mail_1, #e_mail_2{
+    width: 45%;
+}
+
+.join_form  #id::placeholder{
+    text-align: right;
+}
+.join_form label{
+    font-size: medium;
+    font-weight: bold;
+}
+.join_form #year{
+    width: 30%;
+    border: none;
+}
+.join_form #mm{
+    width: 30%;
+    border: none;
+}
+.join_form #day{
+    width: 30%;
+    border: none;
+}
+.join_form .init{
+    display: flex;
+    justify-content: space-between;
+}

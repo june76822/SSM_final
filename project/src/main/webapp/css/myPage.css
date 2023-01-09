@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+
+
+/*.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.contants_wrap{
+    margin-top: 150px;
+} */
+
+.myInfo{
+	height:100px;
+	font-size: 3em;
+	font-style:italic;
+	display:flex;
+	justify-content: center;
+	align-items:flex-end;
+}
+
+.holeInfo{
+  margin-top: 1%;
+    height: 500px;
+    background-color: #3b3a3a;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile{
+	
+}
+
+
+.profileButton{
+	font-size:1.5em;
+	
+	width:190px;
+	height:40px;
+ 
+    cursor:pointer;
+}
+
+.addressBookButton{
+	font-size:1.5em;
+	width:190px;
+	height:40px;
+    cursor:pointer;
+}
+
+.orderHistoryButton{
+	font-size:1.5em;
+	width:190px;
+	height:40px;
+   cursor:pointer;
+}
+.withListButton{
+	font-size:1.5em;
+	width:190px;
+	height:40px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+

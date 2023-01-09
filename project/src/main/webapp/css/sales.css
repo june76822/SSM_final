@@ -1,0 +1,11 @@
+.product_img img{
+  width: 280px;
+      height: 400px;
+  overflow: hidden;
+}  
+.product_info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}

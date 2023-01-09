@@ -1,0 +1,55 @@
+.contants_wrap {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-content: flex-end;
+}
+
+
+
+.detail_img>img {
+	width: 500px;
+	overflow: hidden;
+}
+
+.detail_text{
+	width: 90%;
+}
+
+.detail_item_name{
+	font-size: xx-large;
+	font-weight: bolder;
+}
+.detail_img{
+	margin-right: 4%; 
+}
+.detail_text_text{
+	border-top: double 1px;
+	margin-bottom: 30%;
+	margin-top: 10%; 
+}
+.detail_text > form{
+	height: 100%;
+}
+
+.size_select{
+	margin-bottom: 30%;
+	margin-top: 10%; 
+}
+.quantity_check{
+	margin-bottom: 30%;
+	margin-top: 10%; 
+}
+
+.buttons{
+margin-top: 30%; 
+}
+.contants_detail {
+	min-width: 760px;
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	align-content: flex-end;
+	margin: auto;
+	justify-content: center;
+}
